@@ -1,0 +1,30 @@
+.container {
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 350px;
+  height: auto;
+  margin: 2% auto;
+  padding: 1%;
+  background-color: white;
+  border-radius: 10px;
+}
+.contactsWrapper {
+  position: relative;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+
+.appear {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms linear;
+}

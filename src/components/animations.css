@@ -1,0 +1,47 @@
+.logo-appear {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  .logo-appear-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms linear;
+  }
+  
+  .item-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 250ms linear;
+  }
+  .item-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .item-exit {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 250ms linear;
+  }
+  .item-exit-active {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  .enter {
+    transform: scale(0);
+  }
+  
+  .enterActive {
+    transform: scale(1);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .exit {
+    transform: scale(1);
+  }
+  
+  .exitActive {
+    transform: scale(0);
+    transition: transform 250ms ease-in-out;
+  }

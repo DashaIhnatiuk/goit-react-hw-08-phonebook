@@ -1,0 +1,82 @@
+.container {
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 350px;
+  height: auto;
+  margin: 2% auto;
+  padding: 1%;
+  background-color: white;
+  border-radius: 10px;
+}
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  /* flex-direction: column; */
+  margin-bottom: 20px;
+  align-items: baseline;
+  /* margin-right: 20px; */
+}
+
+.name {
+  margin-right: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  /* text-transform: uppercase; */
+}
+.email {
+  margin-right: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.password {
+  margin-right: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.input {
+  max-width: 400px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.input:focus {
+  outline: none;
+  border: 3px solid #061e8a;
+}
+
+.button {
+  padding: 10px 15px;
+  max-width: 250px;
+  align-self: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #061e8a;
+}
